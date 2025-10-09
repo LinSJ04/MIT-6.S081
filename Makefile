@@ -6,8 +6,10 @@
 -include conf/lab.mk
 
 K=kernel
+# 此处定义了U变量，对应到UPROGS
 U=user
 
+# 有时间可以看一下Makefile的作用，各个部分的含义
 OBJS = \
   $K/entry.o \
   $K/kalloc.o \
